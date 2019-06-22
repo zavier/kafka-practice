@@ -1,7 +1,7 @@
-package com.zavier.kafka;
+package com.zavier.kafka.producer;
 
-import com.zavier.kafka.interceptor.DemoProducerInterceptor;
-import com.zavier.kafka.partition.DemoPartitioner;
+import com.zavier.kafka.producer.interceptor.DemoProducerInterceptor;
+import com.zavier.kafka.producer.partition.DemoPartitioner;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;

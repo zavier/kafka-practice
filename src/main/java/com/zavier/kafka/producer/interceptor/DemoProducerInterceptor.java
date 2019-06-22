@@ -1,4 +1,4 @@
-package com.zavier.kafka.interceptor;
+package com.zavier.kafka.producer.interceptor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.ProducerInterceptor;
